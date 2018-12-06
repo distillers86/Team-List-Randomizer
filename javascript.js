@@ -39,26 +39,20 @@ function generateRandomNumber(maximumNumber) {
 	
 }
 
-
-
 function team() {
 	"use strict";
 	
 	// list of team members per team
-	var gboMain = ["Pao","Bob","Mark","Stu","John","Brenda","Dan","Earl","Bakul"];
-	var gboWeb = ["Byron","Marc","Nathan","Emily","Mike","Bob"];
-	var rallTeam = ["Pao","Diana","John"];
+	var gboMain = ["Pao","Bob","Mark","Stu","John","Brenda","Dan","Earl","Bakul","Diana"];
 	
 	// get user input and open output element
 	//*var teamSelected = document.getElementById("teamSelected").value; 
-	var outputContainer = document.getElementById("outputContainer");
 	var attendance = document.getElementById("attendanceBox");
 	var developer = document.getElementById("developer");
 	var done = document.getElementById("done");
 	
 	// set variables for checkbox outputs
 	var checkBox = "<p><input type='checkbox' class='checkBox'></p>";
-	var lineBreak = "<br />";
 	var randomNumber;
 	
 	// call function to get randomly generated number
