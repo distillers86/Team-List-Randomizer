@@ -43,7 +43,7 @@ function team() {
 	"use strict";
 	
 	// list of team members per team
-	var gboMain = ["Pao","Bob","Mark","Stu","John","Brenda","Dan","Earl","Ravendra"];
+	var gboMain = ["Pao","Bob","Mark","Stu","John","Brenda","Dan","Earl","Ravendra","Matt"];
 	
 	// get user input and open output element
 	//*var teamSelected = document.getElementById("teamSelected").value; 
